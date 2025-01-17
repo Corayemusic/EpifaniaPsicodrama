@@ -10,7 +10,10 @@ import Splash from "~/components/splash.astro";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
-const image = new URL("social.jpg", site);
+<video controls width="640">
+  <source src="Epifania.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de videos.
+</video>
 const description =
   "Build fast websites, faster. Astro is a new kind of site builder for the modern web. Lightning-fast performance meets powerful developer experience.";
 ---
