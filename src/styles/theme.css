@@ -1,9 +1,4 @@
 
-Claro, aquí está el código actualizado para que los colores primarios sean #560576 (un tono morado) y #cd3cbe (un tono rosado claro):
-
-css
-Copy
-Edit
 [data-theme="light"] {
   --color-primary: #560576; /* Morado */
   --color-secondary: #cd3cbe; /* Rosado claro */
