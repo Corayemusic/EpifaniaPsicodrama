@@ -1,6 +1,12 @@
+
+Claro, aquí está el código actualizado para que los colores primarios sean #560576 (un tono morado) y #cd3cbe (un tono rosado claro):
+
+css
+Copy
+Edit
 [data-theme="light"] {
-  --color-primary: theme("colors.pink.500");
-  --color-secondary: theme("colors.indigo.500");
+  --color-primary: #560576; /* Morado */
+  --color-secondary: #cd3cbe; /* Rosado claro */
   --color-text: theme("colors.gray.900");
   --color-text-offset: theme("colors.gray.600");
   --color-background: theme("colors.gray.50");
@@ -9,8 +15,8 @@
 }
 
 [data-theme="dark"] {
-  --color-primary: theme("colors.pink.400");
-  --color-secondary: theme("colors.indigo.400");
+  --color-primary: #560576; /* Morado */
+  --color-secondary: #cd3cbe; /* Rosado claro */
   --color-text: theme("colors.gray.50");
   --color-text-offset: theme("colors.gray.400");
   --color-background: theme("colors.gray.900");
