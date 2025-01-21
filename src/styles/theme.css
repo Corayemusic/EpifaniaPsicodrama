@@ -3,8 +3,8 @@
   --color-secondary: theme("colors.indigo.500");
   --color-text: theme("colors.gray.900");
   --color-text-offset: theme("colors.gray.600");
-  --color-background: theme("colors.purple.50"); /* Fondo morado claro */
-  --color-background-offset: theme("colors.purple.100"); /* Fondo de contraste en morado claro */
+  --color-background: theme("colors.gray.50");
+  --color-background-offset: theme("colors.gray.100");
   --color-border: theme("colors.gray.900" / 10%);
 }
 
@@ -13,7 +13,7 @@
   --color-secondary: theme("colors.indigo.400");
   --color-text: theme("colors.gray.50");
   --color-text-offset: theme("colors.gray.400");
-  --color-background: theme("colors.purple.900"); /* Fondo morado oscuro */
-  --color-background-offset: theme("colors.purple.800"); /* Fondo de contraste en morado oscuro */
+  --color-background: theme("colors.gray.900");
+  --color-background-offset: theme("colors.gray.800");
   --color-border: theme("colors.gray.50" / 10%);
 }
