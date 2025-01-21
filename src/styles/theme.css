@@ -1,20 +1,19 @@
 [data-theme="light"] {
-  --color-primary: theme("colors.purple.500"); /* Morado principal */
-  --color-secondary: theme("colors.purple.300"); /* Morado claro como secundario */
-  --color-text: theme("colors.gray.900"); /* Texto en gris oscuro */
-  --color-text-offset: theme("colors.purple.700"); /* Texto resaltado en morado más oscuro */
-  --color-background: theme("colors.white"); /* Fondo blanco */
-  --color-background-offset: theme("colors.gray.100"); /* Fondo de contraste en gris claro */
-  --color-border: theme("colors.purple.500" / 10%); /* Borde en morado con opacidad */
+  --color-primary: theme("colors.pink.500");
+  --color-secondary: theme("colors.indigo.500");
+  --color-text: theme("colors.gray.900");
+  --color-text-offset: theme("colors.gray.600");
+  --color-background: theme("colors.purple.50"); /* Fondo morado claro */
+  --color-background-offset: theme("colors.purple.100"); /* Fondo de contraste en morado claro */
+  --color-border: theme("colors.gray.900" / 10%);
 }
 
 [data-theme="dark"] {
-  --color-primary: theme("colors.purple.400"); /* Morado principal */
-  --color-secondary: theme("colors.purple.200"); /* Morado más claro */
-  --color-text: theme("colors.gray.900"); /* Texto en gris oscuro */
-  --color-text-offset: theme("colors.purple.300"); /* Texto resaltado en morado claro */
-  --color-background: theme("colors.white"); /* Fondo blanco */
-  --color-background-offset: theme("colors.gray.200"); /* Fondo de contraste en gris claro */
-  --color-border: theme("colors.purple.500" / 10%); /* Borde en morado con opacidad */
+  --color-primary: theme("colors.pink.400");
+  --color-secondary: theme("colors.indigo.400");
+  --color-text: theme("colors.gray.50");
+  --color-text-offset: theme("colors.gray.400");
+  --color-background: theme("colors.purple.900"); /* Fondo morado oscuro */
+  --color-background-offset: theme("colors.purple.800"); /* Fondo de contraste en morado oscuro */
+  --color-border: theme("colors.gray.50" / 10%);
 }
-
