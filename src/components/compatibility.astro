@@ -13,7 +13,26 @@ const frameworks: Array<CompatibilityItem> = [
     title: "Preact",
     icon: "frameworks/preact",
     url: "https://preactjs.com/",
- 
+  },
+  {
+    title: "Svelte",
+    icon: "frameworks/svelte",
+    url: "https://svelte.dev/",
+  },
+  {
+    title: "Vue",
+    icon: "frameworks/vue",
+    url: "https://vuejs.org/",
+  },
+  {
+    title: "Solid",
+    icon: "frameworks/solid",
+    url: "https://www.solidjs.com/",
+  },
+  {
+    title: "Lit",
+    icon: "frameworks/lit",
+    url: "https://lit.dev/",
   },
 ];
 
@@ -51,11 +70,11 @@ const platforms: Array<CompatibilityItem> = [
 ];
 ---
 
-<ContentSection title="Quienes somos?" id="compatibility">
+<ContentSection title="Workshops" id="compatibility">
   <Fragment slot="lead">
-    Somos un colectivo de <span class="text-primary">psicólogas, antropólogas, socio y psicodramatistas </span> especializadas en diversas ramas de la salud emocional, social y organizacional.{" "}
-    <span class="text-primary">Creamos</span>
-   diseños personalizados, atención Online, presencial y mixta. Brindamos un acompañamiento  cercano, profesional e íntegro a las personas. <span class="text-primary">platform</span>.
+    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
+    <span class="text-primary">framework</span>
+    and deploy to your favorite <span class="text-primary">platform</span>.
   </Fragment>
   <CompatibilityList
     items={frameworks}
